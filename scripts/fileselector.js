@@ -2,7 +2,7 @@ import {generateHTML} from "./todo.js";
 
 
 
-let subjects = JSON.parse(localStorage.getItem('subjects')) 
+let subjects = JSON.parse(localStorage.getItem('subjects')) || [];
 
 
 generateSelectorHTML();
